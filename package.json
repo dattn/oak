@@ -1,13 +1,12 @@
 {
   "name": "oak",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "",
   "main": "lib/oak.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "node_modules/babel-cli/bin/babel-node.js -d lib/ src/",
-    "prepublish": "npm run compile",
-    "install": "npm run compile"
+    "compile": "babel -d lib/ src/",
+    "prepublish": "npm run compile"
   },
   "repository": {
     "type": "git",
