@@ -923,7 +923,7 @@
     },
     "koa-compose": {
       "version": "3.1.0",
-      "from": "https://registry.npmjs.org/koa-compose/-/koa-compose-3.1.0.tgz",
+      "from": "koa-compose@>=3.0.0 <4.0.0",
       "resolved": "https://registry.npmjs.org/koa-compose/-/koa-compose-3.1.0.tgz"
     },
     "koa-convert": {
